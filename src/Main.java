@@ -90,10 +90,10 @@ public class Main {
     }
 
     private static void printResults(HashMap<String, Duration> minFlightDurations, double averagePrice, double medianPrice) {
-        System.out.println("Минимальное время полета между городами Владивосток и Тель-Авив для каждого авиаперевозчика:");
+        System.out.println("The minimum flight time between the cities of Vladivostok and Tel Aviv for each airline:");
         for (Map.Entry<String, Duration> entry : minFlightDurations.entrySet()) {
-            System.out.println("Авиаперевозчик: " + entry.getKey() + ", Время полета: " + entry.getValue().toHoursPart() + " часов " + entry.getValue().toMinutesPart() + " минут");
+            System.out.println("Airline: " + entry.getKey() + ", Flight time: " + entry.getValue().toHoursPart() + " hours " + entry.getValue().toMinutesPart() + " minutes");
         }
-        System.out.println("Разница между средней ценой и медианой для полета между городами Владивосток и Тель-Авив: " + (averagePrice - medianPrice));
+        System.out.println("The difference between the average price and the median price for flights between the cities of Vladivostok and Tel Aviv: " + (averagePrice - medianPrice));
     }
 }
