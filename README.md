@@ -12,10 +12,10 @@ This program reads the file tickets.json and calculates the following from the o
 
 ## Installation
 
-- Download this repository and unzip the .zip file in your desired location.
-- Open a terminal, then navigate to the project root.
-- Make the script executable ```chmod +x run.sh```.
-- Run the script to compile and execute the Java program ```./run.sh```.
+- Download this repository and unzip the .zip file to your desired location.
+- Open a terminal and navigate to the project root directory.
+- Make the script executable by running ```chmod +x run.sh```.
+- Execute the script to compile and run the Java program by running ```./run.sh```.
 
 ## Example of use
 
